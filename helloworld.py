@@ -32,3 +32,4 @@ print(mystring[2:5])
 print(mystring[-4:])
 print(mystring[::2]) # skip every second character
 print(mystring[::-1]) # reverse
+print(mystring.split(" "))
