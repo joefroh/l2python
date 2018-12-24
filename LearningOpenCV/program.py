@@ -1,7 +1,7 @@
 import cv2
 print(cv2.__version__)
 
-image = cv2.imread(".\LearningOpenCV\Surface Laptop 2.jpg", 0)
+image = cv2.imread(".\\LearningOpenCV\Surface Laptop 2.jpg", 0)
 cv2.imshow("image test", image)
 cv2.waitKey()
 cv2.destroyWindow("image test")
